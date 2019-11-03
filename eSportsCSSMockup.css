@@ -1,0 +1,282 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-image: url("prism.png");
+    
+}
+
+.grid {
+    display: grid;
+    width: 90%;
+    height: 90%;
+    grid-template-rows: 10% 40% 40% 2% 8%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-image: url("triangular.png");
+}
+
+.bubble {
+    width: 230px;
+    height: 230px;
+}
+
+.esports-content-person {
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;
+    float: left;
+}
+
+.esports-text-upper-right {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.esports-content-logo {
+    width: 360px;
+    height: 360px;
+    border: 2px solid black;
+    float: right;
+    grid-row: 3;
+    grid-column: 3;
+    margin-left: 65px;
+}
+
+.esports-text-lower-left {
+    grid-column: 1/3;
+    grid-row: 3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.sonicfox {
+    width: 515px;
+    height: 317px;
+    grid-row: 2;
+    grid-column: 3;
+    border: 2px solid black;
+}
+
+.identity-text-upper-left {
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.zero {
+    grid-row: 3;
+    border: 2px solid black;
+    width: 500px;
+    height: 302px;
+}
+
+.identity-text-lower-right {
+    grid-column: 3/5;
+    grid-row: 3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.arena {
+    grid-column: 3;
+    border: 2px solid black;
+    width: 405px;
+    height: 307px;
+    margin-left: 50px;
+}
+
+.about-text-upper-left {
+    grid-column: 1/3;
+    grid-row: 2;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.pokemon {
+    grid-row: 3;
+    border: 2px solid black;
+    width: 528px;
+    height: 277px;
+}
+
+.about-text-lower-right {
+    grid-column: 3/5;
+    grid-row: 3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.eGames {
+    float: left;
+    grid-row: 2;
+    width: 528px;
+    height: 231px;
+    border: 2px solid black;
+}
+
+.olympics-text-upper-right {
+    grid-column: 3/5;
+    grid-row: 1/3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.asianGames {
+    grid-column: 3;
+    grid-row: 3;
+    width: 480px;
+    height: 317px;
+    border: 2px solid black;
+}
+
+.olympics-text-lower-left {
+    grid-row: 3;
+    grid-column: 1/3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.participants {
+    grid-column: 3;
+    border: 2px solid black;
+    height: 309px;
+    width: 425px;
+    margin-left: 30px;
+}
+
+.popularity-text-upper-left {
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+.fortnite {
+    grid-row: 3;
+    border: 2px solid black;
+    height: 350px;
+    width: 350px;
+    margin-left: 70px;
+}
+
+.popularity-text-lower-right {
+    grid-column: 3/5;
+    grid-row: 3;
+    text-align: left;
+    font-family: 'Baloo', cursive;
+}
+
+header {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    background-color: lightgrey;
+}
+
+h1 {
+    border: 1px black;
+    font-size: 40px;
+}
+
+h2 {
+    line-height: 1px;
+    word-spacing: 2px;
+    font-size: 32px;
+}
+
+h3 {
+    line-height: .5px;
+    word-spacing: 1px;
+    font-size: 25px;
+}
+
+.blue-title {
+    color: rgb(0, 140, 255);
+}
+
+.orange-title {
+    color: rgb(255, 153, 0);
+}
+
+.grey-title {
+    color: rgb(110, 110, 110);
+}
+
+.upper-left {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.upper-middle {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    text-align: center;
+    text-decoration-color: orange;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.upper-right {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.lower-left {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: center;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.lower-right {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    text-align: center;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+footer {
+    grid-column: 1/5;
+    grid-row: 5/6;
+    text-align: left;
+    line-height: .5px;
+    font-family: 'Baloo', cursive;
+    background-color: lightgray;
+}
+
+.links {
+    text-align: right;
+    font-family: 'Baloo', cursive;
+}
+
+.source-text-1 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.source-text-2 {
+    font-family: 'Fira Sans', sans-serif;
+    grid-column: 2;
+}
+
+.source-text-3 {
+    font-family: 'Fira Sans', sans-serif;
+    grid-column: 3;
+}
+
+.source-text-4 {
+    font-family: 'Fira Sans', sans-serif;
+    grid-column: 4;
+}
